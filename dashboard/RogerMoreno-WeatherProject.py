@@ -15,7 +15,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("df.csv")
+link = "https://drive.google.com/uc?id=1BfNq2kYOEqwY9U0t_9Fjc7LuL9xv9gjB"
+df = pd.read_csv(link)
 
 st.set_page_config(layout="wide")
 
